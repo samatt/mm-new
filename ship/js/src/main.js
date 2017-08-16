@@ -26,7 +26,7 @@ var spriteSheetWidth = 1980, spriteSheetHeight = 570, iconWidth = iconHeight = 3
 var loadingImage = new Image()
 
 var r = new Random()
-var db_url = 'http://localhost:5000/api/'
+var db_url = 'http://moreandmorestore.herokuapp.com/api/'
 // http://moreandmorestore.herokuapp.com/api/
 var isMobile = false // initiate as false
 // device detection
