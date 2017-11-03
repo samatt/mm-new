@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>  </title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+      
+      <!-- for Google -->
+      <meta name="description" content=""/>
+      <meta name="keywords" content=""/>
+
+      <meta name="author" content=""/>
+      <meta name="application-name" content=""/>
+
+      <!-- for Facebook -->          
+      <meta property="og:title" content=""/>
+      <meta property="og:type" content="article"/>
+      <meta property="og:image" content=""/>
+      <meta property="og:url" content=""/>
+      <meta property="og:description" content=""/>
+
+      <!-- for Twitter -->          
+      <meta name="twitter:card" content=""/>
+      <meta name="twitter:title" content=""/>
+      <meta name="twitter:description" content=""/>
+      <meta name="twitter:image" content=""/>
+
+      <link rel="stylesheet" href="styles/style.css">
+      <link rel="shortcut icon" href="favicon.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+  </head>
+  <body class="fill">
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div id="loader" class="loader fill">
+        <img src="img/loading.gif">
+    </div>
+    
+    <div class="main fill">
+
+      <div id="controls" class="controls">
+
+
+         <div id="about-link" class="about-link control link">
+          <img src="img/more-icon.png">
+        </div>
+
+        <div id="home-link" class="home-link link">
+
+          <img src="img/logo.png">
+
+        </div>
+
+       
+
+        <div id="from-flag" class="from-flag control flag"></div>
+        <div id="icon-wrap" class="icon-wrap control flag"></div>
+        <div id="where-flag" class="where-flag control flag"></div>
+
+      </div>
+
+      <div id="ships" class="ships">
+
+        <div class="ship">
+          <div class="cargo">
+
+          </div>
+          <img src="img/ship.png">
+        </div>
+
+        <div class="ship">
+          <div class="cargo">
+            
+          </div>
+          <img src="img/ship.png">
+        </div>
+
+      </div>
+
+      <div id="backgrounds" class="backgrounds fill">
+        <div id="where-gradient" class="where-gradient fill"></div>
+        <div id="from-gradient" class="from-gradient fill"></div>
+        <div id="icon-grid" class="icon-grid"></div>
+      </div>
+
+      <div id="enter" class="enter page fill">
+      <div class = "banner"><CENTER>AN OCEAN OF PRODUCTS IS WAITING FOR YOU</CENTER></div>
+
+        <div class="more-loop">
+
+          <img src="img/more-loop.png">
+          <div class="enter-btn link"> ENTER </div>
+
+        </div>
+
+      </div>
+
+      <div id="where" class="where page fill">
+
+          <div class="content-wrap">
+            <div class="chunk"> 
+              <div class="title">
+                WHERE ARE YOU?
+              </div>
+            </div>
+            <div class="where-select-wrap chunk"> 
+              <select id="where-select" class="where-select select">
+                <option value="default" placeholder> CHOOSE A NATION </option>
+              </select>
+            </div>
+
+            <div class="btn-wrap chunk"> 
+              <p class="link next-btn btn disabled">
+                I'VE SELECTED MY NATION 
+              </p>
+
+            </div>
+          </div>
+
+      </div>
+
+      <div id="what" class="what page fill">
+
+          <div class="content-wrap">
+            <div class="chunk"> 
+              <div class="title">
+                WHAT DO YOU WANT?
+              </div>
+            </div>
+            <div id="item-select-wrap" class="item-select-wrap chunk">
+
+              <div id="prev-item" class="prev-item link">
+                <img src="img/arrow.png">
+              </div>
+
+            
+
+
+              <div id="current-item" class="current-item">
+                
+                <div class="item active" data-product-name="frozen chicken" data-product-id="0207">
+
+                  <img src="img/big-icons/bigIcon_020712.png">
+                  <h3 class="big-icon-name"> Frozen Chicken (HS 020712) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="avocado" data-product-id="0804">
+
+                  <img src="img/big-icons/bigIcon_080440.png">
+                  <h3 class="big-icon-name"> Avocado (HS 080440) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="soybeans" data-product-id="1201">
+
+                  <img src="img/big-icons/bigIcon_120190.png">
+                  <h3 class="big-icon-name"> Soybeans (HS 120190) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="processed crustaceans" data-product-id="1605">
+
+                  <img src="img/big-icons/bigIcon_160521.png">
+                  <h3 class="big-icon-name"> Processeed Crustaceans (HS 160521) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="refined petroleum" data-product-id="2710">
+
+                  <img src="img/big-icons/bigIcon_271012.png">
+                  <h3 class="big-icon-name"> Refined Petroleum (HS 271012) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="unpackaged medicaments" data-product-id="3003">
+
+                  <img src="img/big-icons/bigIcon_300339.png">
+                  <h3 class="big-icon-name"> Unpacked Medicaments (HS 300339) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="water bottle" data-product-id="3923">
+
+                  <img src="img/big-icons/bigIcon_392330.png">
+                  <h3 class="big-icon-name"> Water Bottle (HS 392330) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="plastic ornament" data-product-id="3926">
+
+                  <img src="img/big-icons/bigIcon_392640.png">
+                  <h3 class="big-icon-name"> Plastic Ornament (HS 392640) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="rubber tire" data-product-id="4011">
+
+                  <img src="img/big-icons/bigIcon_401110.png">
+                  <h3 class="big-icon-name"> rubber tire (HS 401110) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="fur skin" data-product-id="4301">
+
+                  <img src="img/big-icons/bigIcon_430160.png">
+                  <h3 class="big-icon-name"> fur skin (HS 430160) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="rough wood" data-product-id="4403">
+
+                  <img src="img/big-icons/bigIcon_440320.png">
+                  <h3 class="big-icon-name"> rough wood (HS 440320) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="t shirt" data-product-id="6109">
+
+                  <img src="img/big-icons/bigIcon_610910.png">
+                  <h3 class="big-icon-name"> t shirt (HS 610910) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="textile-footwear" data-product-id="6404">
+
+                  <img src="img/big-icons/bigIcon_640411.png">
+                  <h3 class="big-icon-name"> textile-footwear (HS 640411) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="full wig" data-product-id="6704">
+
+                  <img src="img/big-icons/bigIcon_670411.png">
+                  <h3 class="big-icon-name"> full wig (HS 670411) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="crystal ball" data-product-id="7002">
+
+                  <img src="img/big-icons/bigIcon_700239.png">
+                  <h3 class="big-icon-name"> crystal ball (HS 700239) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="glass beads" data-product-id="7018">
+
+                  <img src="img/big-icons/bigIcon_701810.png">
+                  <h3 class="big-icon-name"> glass beads (HS 701810) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="diamond" data-product-id="7102">
+
+                  <img src="img/big-icons/bigIcon_710210.png">
+                  <h3 class="big-icon-name"> diamond (HS 710210) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="gold" data-product-id="7108">
+
+                  <img src="img/big-icons/bigIcon_710812.png">
+                  <h3 class="big-icon-name"> gold (HS 710812) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="computer" data-product-id="8471">
+
+                  <img src="img/big-icons/bigIcon_847141.png">
+                  <h3 class="big-icon-name"> computer (HS 847141) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="phone" data-product-id="8517">
+
+                  <img src="img/big-icons/bigIcon_851712.png">
+                  <h3 class="big-icon-name"> phone (HS 851712) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="car" data-product-id="8703">
+
+                  <img src="img/big-icons/bigIcon_870323.png">
+                  <h3 class="big-icon-name"> car (HS 870323) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="airplane" data-product-id="8802">
+
+                  <img src="img/big-icons/bigIcon_880220.png">
+                  <h3 class="big-icon-name"> airplane (HS 880220) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="tugboat" data-product-id="8904">
+
+                  <img src="img/big-icons/bigIcon_890400.png">
+                  <h3 class="big-icon-name"> tugboat (HS 890400) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="eyeglass frames" data-product-id="9003">
+
+                  <img src="img/big-icons/bigIcon_900311.png">
+                  <h3 class="big-icon-name"> eyeglass frames (HS 900311) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="camera" data-product-id="9006">
+
+                  <img src="img/big-icons/bigIcon_900651.png">
+                  <h3 class="big-icon-name"> camera (HS 900651) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="false teeth" data-product-id="9021">
+
+                  <img src="img/big-icons/bigIcon_902121.png">
+                  <h3 class="big-icon-name"> false teeth (HS 902121) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="piano" data-product-id="9201">
+
+                  <img src="img/big-icons/bigIcon_920120.png">
+                  <h3 class="big-icon-name"> piano (HS 920120) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="handgun" data-product-id="9302">
+
+                  <img src="img/big-icons/bigIcon_930200.png">
+                  <h3 class="big-icon-name"> handgun (HS 930200) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="grenade" data-product-id="9306">
+
+                  <img src="img/big-icons/bigIcon_930690.png">
+                  <h3 class="big-icon-name"> grenade (HS 930690) </h3>
+
+                </div>
+                
+                <div class="item" data-product-name="anitique artifact" data-product-id="9706">
+
+                  <img src="img/big-icons/bigIcon_970600.png">
+                  <h3 class="big-icon-name"> anitique artifact (HS 970600) </h3>
+
+                </div>
+
+              </div>
+
+              <div id="next-item" class="next-item link">
+                <img src="img/arrow.png">
+              </div>
+
+              
+            </div>
+
+            <div class="btn-wrap chunk"> 
+                <p class="link next-btn btn">
+                  I'VE SELECTED MY DESIRED PRODUCT 
+                </p>
+              </div>
+          </div>
+      </div>
+
+      <div id="from" class="from page fill">
+
+        <div class="content-wrap">
+          <div class="chunk"> 
+            <div class="title">
+              WHERE SHOULD THE PRODUCT COME FROM?
+            </div>
+          </div>
+          <div class="from-select-wrap chunk"> 
+            <select id="from-select" class="from-select select">
+              <option value="default" placeholder> EXPORTING COUNTIRES </option>
+            </select>
+          </div>
+
+          <div class="btn-wrap chunk"> 
+            <p class="link next-btn btn disabled">
+              I'VE SELECTED MY EXPORTER  
+            </p>
+
+          </div>
+        </div>
+
+      </div>      
+
+      <div id="shipping" class="shipping page fill">
+
+
+      </div>
+
+      <div id="your-product" data-trans-in="slideLeft" data-trans-out="none" class="your-product page fill">
+
+        <div id="the-product" class="the-product">
+
+        </div>
+
+        <div id="tool-tip" class="tool-tip">
+          
+        </div>
+
+      </div>
+
+      <div id="go-swimming" data-trans-in="fade" data-trans-out="fade" class="go-swimming page fill">
+
+        <div id="white-transparency" class="white-transparency fill">
+
+        </div>
+
+        <div class="content-wrap">
+
+          <div id="country-name" class="title chunk">
+            A CONTAINER SHIP BROUGHT YOU THESE PRODUCTS FROM <div class="chunk"></div>. BUY A SWIMSUIT TO JOIN THEM IN THE SEA. 
+          </div>
+
+          <div class="chunk"></div>
+
+          <div class="chunk">
+            <div class="btn-wrap">
+              <div id="need-swimsuit" class="need-swimsuit btn link">
+                YES I'LL NEED A SWIMSUIT.
+              </div>
+            </div>
+
+            <div class="btn-wrap">
+              <div id="restart" class="restart about-link btn link">
+                NO I'D LIKE TO START OVER.
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="swim-suit" data-trans-in="fade" data-trans-out="fade" class="swim-suit page fill">
+
+        <div id="ocean-overlay" class="ocean-bg fill">
+
+        </div>
+
+
+        <div id="cut-out" class="cut-out fill">
+
+        </div>
+
+        <div class="content-wrap">
+
+          <div class="chunk">
+            <div id="buy-it" class="buy-it btn">
+              PURCHASE
+            </div>
+
+            <div id="start-over" class="btn restart about-link">
+              START OVER
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="form" data-trans-out="fade" class="form page fill">
+
+        <form id="the-form">
+          <div class="content-wrap">
+            <div class="chunk">
+              <div class="form-wrap"> 
+
+                <div class="label">
+
+                  name
+
+                </div>
+
+                <input id="name" class="input name" required>
+
+                </input>
+
+              </div>
+
+              <div class="form-wrap"> 
+
+                <div class="label">
+
+                  email
+
+                </div>
+
+                <input id="email" type="email" class="input email" required>
+
+                </input>
+
+              </div>
+
+              <div class="form-wrap"> 
+
+                <div class="label">
+
+                  email
+
+                </div>
+
+                <input id="confirm-email" type="email" class="input email" required>
+
+                </input>
+
+              </div>
+
+              <div class="form-wrap"> 
+
+                <div class="label">
+
+                  phone
+
+                </div>
+
+                <input id="phone" class="input phone" required>
+
+                </input>
+
+              </div>
+            </div>
+
+            <div class="chunk">
+              <input type="submit" id="order" class="order btn" value="ORDER"></input>
+
+              <div id="start-over-again" class="btn restart about-link">
+                START OVER
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+
+      </div>
+
+      <div id="thank-you" data-trans-in="fade" data-trans-out="fade" class="thank-you page fill">
+
+        <div id="thank-you-message" class="thank-you-message">
+
+        </div>
+
+
+      </div>
+
+      <div id="about" class="about page fill">
+
+        <div id = "about-credits" class = "about-credits">
+          <a href = "http://o-matic.com/play/moreandmore">MORE ON MORE&MORE</a><br>
+          A PROJECT BY <a href="http://suryamattu.com" target="_blank" >SURYA MATTU</a>, <a href="sarahrothberg.com">SARAH ROTHBERG</a> & <a href="http://o-matic.com">MARINA ZURKOW</a><br>
+          DATA PROVIDED BY <a href = "http://atlas.media.mit.edu/en/" target="_blank" >THE OBSERVATORY OF ECONOMIC COMPLEXITY</a><br>
+          WEBSITE DEVELOPED BY <a href="http://neilcline.com" target="_blank" >NEIL CLINE</a><br>
+          SWIMSUITS BY <a href="http://poam.com" target="_blank" >PAOM</a>
+        </div>
+
+      </div>
+
+
+
+
+      
+    </div>
+        
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+    <script src="js/scripts.min.js"></script>
+
+    <!-- for Google Analytics -->  
+    <script>
+        var _gaq=[['_setAccount','UA-39855631-2'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
