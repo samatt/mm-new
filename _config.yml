@@ -1,7 +1,7 @@
 # Site settings
 title: More&More
 email: moreandmoreunlimited@gmail.com
-url: https://example.github.io
+url: https://samatt.github.io/mmnew/
 description: ""
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -17,8 +17,6 @@ footer: More&More
 social:
   - title: twitter
     url: https://twitter.com/MoreAndMoreLtd
-  - title: facebook
-    url:
   - title: instagram
     url: http://instagram.com/moreandmoreunlimited
   - title: tumblr
