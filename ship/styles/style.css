@@ -503,12 +503,12 @@ body {
   opacity: .6;
 }
 .ships .ship:nth-child( 1 ) {
-  left: 34%;
+  left: 73%;
   z-index: 2005;
   transform: scaleX(-1);
 }
 .ships .ship:nth-child( 2 ) {
-  left: 29%;
+  left: 15%;
   bottom: 40px;
   width: 400px;
   animation-duration: 2.22s;
